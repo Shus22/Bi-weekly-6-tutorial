@@ -1,4 +1,5 @@
 using System;
+// This class stores customer details like ID, name, and email
 
 class Customer
 {
@@ -13,5 +14,11 @@ class Customer
         Id = id;
         Name = name;
         Email = email;
+    }
+    //Method to display customer infromation
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"Customer ID:{ID},Name:{Name},Email:{Email}");
+
     }
 }
